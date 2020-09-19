@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>सर्वे भवन्तु सुखिनः</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  </head>
+<header role="banner">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Menu</a>
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/templates/home">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="/template/device">Equipments</a>
+          </li>
+             <li class="nav-item">
+            <a class="nav-link" href="/templates/Registration">Registration</a>
+          </li>
+            </li>
+             <li class="nav-item">
+            <a class="nav-link" href="/templates/EquipmentList">Device List</a>
+          </li>
+             </li>
+            </li>
+             <li class="nav-item">
+            <a class="nav-link" href="/templates/table">Allocation Details</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+
+{% block body%}
+
+{%endblock%}
+<footer>
+  <nav role="navigation">
+  </nav>
+  <p class="copy">&copy; Bharat Joshi 2014</p>
+</footer>
+
+</html>

@@ -1,0 +1,35 @@
+1.  23.08.20 :  Add Background to Registration Page and make it a common heading
+2.  23.08.20 :  Adding heading on the Equipment List Page
+3:  Started with deleting device and kept is as it is 
+4. Adding a drop down list in the Regiter device form
+
+30.08.2020
+1. fixed the issue of not saving the allocation details
+2. Add the equipment drop down in the list
+3. Some problem occured after deleting the browser history
+4. Some how problem of rendering is resolved
+5. Not able to resolve the issue of showing the data in dropdown list for Equipments
+6. Issue with the Drop down Resolved
+7. From registration form data is not getting saved to Database
+8. Multiple DropDown List Implementation is not working
+
+05-09-2020
+1. Push the new code on the google cloud
+Steps for pushing on GCP
+gcloud app create
+gcloud app deploy
+gcloud app logs read
+getting bad gateway on the google cloud site
+https://rugnasahayata.uc.r.appspot.com]
+Flows to be completed
+1. Authentication for users to view registration details
+2. Should reduce the devices from the list of available devices in the Page
+
+
+
+
+
+
+
+
+

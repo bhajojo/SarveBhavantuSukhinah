@@ -1,1 +1,1 @@
-"# SarveBhavantuSukhinah" 
+"# RugnaSahayata" 
