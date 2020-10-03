@@ -91,15 +91,6 @@ def about():
     name= "Rugna Sahayata Kendra"
     return render_template("about.html", name=name)
 
-@app.route ('/templates/contact')
-def ContactsPage():
-    return render_template ("contact.html")
-
-@app.route ('/templates/about')
-def AboutPage():
-    return render_template ("about.html")
-
-
 @app.route('/templates/Registration', methods=['GET', 'POST'])
 def Registration():
 
