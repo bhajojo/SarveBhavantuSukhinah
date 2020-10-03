@@ -37,6 +37,9 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
            <li class="nav-item">
+            <a class="nav-link" href="/template/device">Equipments</a>
+          </li>
+             <li class="nav-item">
             <a class="nav-link" href="/templates/Registration">Registration</a>
           </li>
             </li>
@@ -85,13 +88,15 @@
               <td>Disease</td>
               <td>Issue_Date</td>
               <td>Return_Date</td>
+              <td>Refund Amount</td>
+              <td>Center</td>
           </tr>
         </thead>
          {% for row in rows %}
             <tr>
                 <td>{{row["id"]}}</td>
                 <td>{{row["Patient_Name"]}}</td>
-                <td> {{ row["Patient_Age"]}}</td>
+                <td> {{row["Patient_Age"]}}</td>
                 <td>{{row['email']}}</td>
                 <td>{{row['Doctor_Name']}}</td>
                 <td>{{row['PhoneNumber']}}</td>
@@ -101,6 +106,8 @@
                 <td>{{row['Disease']}}</td>
                 <td>{{row['Issue_Date']}}</td>
                 <td>{{row['Return_Date']}}</td>
+                <td>{{row['Refund_Amount']}}</td>
+                <td>{{row['center']}}</td>
             </tr>
          {% endfor %}
       </table>
