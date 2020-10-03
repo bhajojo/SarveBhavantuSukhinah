@@ -88,7 +88,7 @@ def devices1():
 @app.route('/templates/home')
 def about():
     name= "Rugna Sahayata Kendra"
-    return render_template("home.html", name=name)
+    return render_template("about.html", name=name)
 
 @app.route('/templates/Registration', methods=['GET', 'POST'])
 def Registration():
@@ -129,6 +129,9 @@ def EquipmentList():
     rows = cur.fetchall ();
     return render_template ("EquipmentList.html", rows=rows)
 
+@app.route ('/templates/contact')
+def ContactsPage():
+    return render_template ("contact.html")
 
 
 @app.route("/home", methods=["GET", "POST"])
@@ -185,6 +188,8 @@ def AddDeviceDB():
         db.session.commit()
 
     return render_template ("index.html")
+
+
 
 def choice_query():
     return DeviceData.query
