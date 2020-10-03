@@ -86,7 +86,7 @@ def devices():
 def devices1():
     return render_template("list.html")
 
-@app.route('/templates/home')
+@app.route('/templates/about')
 def about():
     name= "Rugna Sahayata Kendra"
     return render_template("about.html", name=name)
