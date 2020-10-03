@@ -6,6 +6,8 @@ from flask import redirect, url_for, session, request, g
 from flask_sqlalchemy import SQLAlchemy
 from wtforms.ext.sqlalchemy.fields import QuerySelectField
 from flask_wtf import FlaskForm
+
+from flask_user import SQLAlchemyAdapter, login_required, UserMixin, UserManager
 import wtforms
 from flask_wtf import Form
 
